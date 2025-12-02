@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Computer Science Department – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="GPA.css">
+</head>
+<body>
+
+  <div class="page">
+   
+    <header class="header">
+      <div class="logo-cell">
+        <img src="images/logo.png" alt="AUM — Auburn University at Montgomery logo">
+      </div>
+
+      <div class="right-head">
+        <div class="titlebar">
+          <h1>Computer Science Department</h1>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="description.html">Program Description</a></li>
+            <li><a href="TA.html">TA Application</a></li>
+            <li><a  class="active"href="GPA.html">GPA Calculator</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="GPA-main">
+    <div class="gpa-wrapper">
+
+        <h2>Find your GPA!</h2>
+        <p class="gpa-subtext">
+            Enter the number of credit hours for each course, and the letter grade for each of them.
+            At least 2 courses should be entered.
+        </p>
+
+        <div class="gpa-grid">
+            <div></div>
+            <div class="gpa-head">Credit Hours</div>
+            <div class="gpa-head">Grade</div>
+
+            <label for="ch1" class="gpa-label">Course 1:</label>
+            <input id="ch1" type="text" class="gpa-input gpa-ch">
+            <input id="gr1" type="text" class="gpa-input gpa-grade">
+
+            <label for="ch2" class="gpa-label">Course 2:</label>
+            <input id="ch2" type="text" class="gpa-input gpa-ch">
+            <input id="gr2" type="text" class="gpa-input gpa-grade">
+
+            <label for="ch3" class="gpa-label">Course 3:</label>
+            <input id="ch3" type="text" class="gpa-input gpa-ch">
+            <input id="gr3" type="text" class="gpa-input gpa-grade">
+
+            <label for="ch4" class="gpa-label">Course 4:</label>
+            <input id="ch4" type="text" class="gpa-input gpa-ch">
+            <input id="gr4" type="text" class="gpa-input gpa-grade">
+
+            <label for="ch5" class="gpa-label">Course 5:</label>
+            <input id="ch5" type="text" class="gpa-input gpa-ch">
+            <input id="gr5" type="text" class="gpa-input gpa-grade">
+
+            <label for="gpaResult" class="gpa-label">Avg GPA:</label>
+            <input id="gpaResult" type="text" class="gpa-input gpa-result" readonly>
+            <div></div>
+        </div>
+
+        <div class="gpa-buttons">
+            <div></div>
+            <div><button type="button" id="gpaSubmit">submit</button></div>
+            <div><button type="button" id="gpaReset">Reset</button></div>
+        
+        
+        </div>
+
+    </div>
+    </main>
+
+
+    <footer class="site-footer">
+      <section class="footer-inner">
+        <section class="footer-contact">
+          7400 East Drive<br>
+          Montgomery, AL 36117<br>
+          Local: 334-244-3000<br>
+          Toll-Free: 800-227-2649
+        </section>
+
+        <section class="footer-name">
+          <p>&copy; 2025 Shivaram Danwada</p>
+        </section>
+
+        <section class="footer-social">
+          <a href="#"><img src="images/twt.jpeg" alt="Twitter"></a>
+          <a href="#"><img src="images/pinterest-logo.png" alt="Pinterest"></a>
+          <a href="#"><img src="images/facebook-social-network-logo.png" alt="Facebook"></a>
+        </section>
+      </section>
+    </footer>
+
+  </div>
+
+  <script src="GPA.js"></script>
+
+
+    
+
+</body>
+</html>

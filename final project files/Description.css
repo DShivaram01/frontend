@@ -1,0 +1,115 @@
+
+
+.desc-layout {
+    background: #d9d9d9;
+    display: grid;
+    grid-template-columns: 1.0fr 1.0fr; 
+    column-gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: justify;
+    /* border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4; */
+}
+.desc-layout::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 50%;
+    width: 2px;
+    background: #ffa98f;
+}
+
+.desc-left,
+.desc-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    padding: 10px 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c4c4c4;
+}
+.desc-left .panel {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.desc-right .panel {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.desc-left  .panel:first-child,
+.desc-right .panel:first-child {
+    border-top: 2px solid #c4c4c4;
+}
+
+.panel h2 {
+    margin: 0 0 6px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.panel h3 {
+    margin: 0 0 6px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.panel p {
+    margin: 1px 0;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.desc-right .panel p{
+    padding-right: 5px;
+}
+
+.panel-points {
+    text-align: left;
+}
+.panel-points ul {
+    margin: 6px 0 0 15px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.panel-points li {
+    padding-bottom: 15px;
+}
+
+
+
+.panel-work {
+    padding-bottom: 8%;
+}
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding-top: 3%;
+    margin-top: 20px;
+    background: #b3b1b1;
+    
+}
+
+.salary-table th,
+.salary-table td {
+    border: 1px solid #555;
+    padding: 4px 8px;
+}
+
+.salary-table thead th {
+    background: #7a7a7a;
+    text-align: center;
+    font-weight: normal
+}
+
+.salary-table tbody td{
+    text-align: center;
+}
+

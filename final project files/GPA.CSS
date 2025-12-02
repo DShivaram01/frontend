@@ -1,0 +1,115 @@
+
+.GPA-main {
+    background: #d9d9d9;
+    padding: 20px 0;
+
+}
+.gpa-wrapper {
+    width: 810PX;
+    min-width: 500PX;
+    margin: 20px 25PX;
+    margin-top: 0;
+    padding: 25px 10px;
+    padding-top: 10px;
+    border-top: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+    border-left: 2px solid #ffa98f;
+    border-right: 2px solid #ffa98f;
+    box-sizing: border-box;
+}
+
+.gpa-wrapper h2 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.gpa-subtext {
+    text-align: center;
+    font-size: 14PX;
+    margin-bottom: 10px;
+}
+
+
+
+
+.gpa-grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%; 
+    row-gap: 10px;
+    align-items: center;
+    justify-content: flex-start;   
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+
+
+.gpa-head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gpa-label {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 30PX;
+}
+.gpa-label:first-of-type {
+    margin-top: 0;
+}
+
+.gpa-input {
+    margin-top: 20px; 
+    width: 70px;          
+    height: 18px;
+    box-sizing: border-box;
+    justify-self: center;
+    border: 1px solid #c4c4c4;
+}
+.gpa-input:focus {
+    outline: none;              
+    border: 2px solid #007bff;  
+}
+
+.gpa-input:nth-of-type(-n+2) { 
+    margin-top: 0;
+}
+
+.gpa-result {
+    background: #b7b7b7;
+    text-align: left;
+    font-weight: bold;
+    border-top: 2px solid rgb(100, 100, 100);
+    border-left: 2px solid rgb(100, 100, 100);
+}
+
+
+.gpa-buttons {
+    display: grid;
+    grid-template-columns: 25% 25% 25%; 
+    width: 100%;
+    margin-top: 10px;
+}
+
+.gpa-buttons > div {
+    display: flex;
+    justify-content: center;
+}
+.gpa-buttons button {
+    width: 90px;        
+    height: 33px;       
+    font-size: 13px;    
+    border: 1px solid #c4c4c4;
+    background: #ececec;
+    cursor: pointer;
+
+}
+
+.gpa-buttons button:hover {
+    background: #d0d0d0;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Computer Science Department – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="TA.css">
+</head>
+<body>
+
+  <div class="page">
+    <header class="header">
+      <div class="logo-cell">
+        <img src="images/logo.png" alt="AUM — Auburn University at Montgomery logo">
+      </div>
+
+      <div class="right-head">
+        <div class="titlebar">
+          <h1>Computer Science Department</h1>
+        </div>
+
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="description.html">Program Description</a></li>
+            <li><a class="active"href="TA.html">TA Application</a></li>
+            <li><a href="GPA.html">GPA Calculator</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="ta-main">
+        <section class="ta-form-box">
+          <h2>Teaching Assistant Application Form</h2>
+  
+          <h3>Applicant information</h3>
+            <form action="survey_data.html" method="get" class="ta-form" id="taForm">
+                <div class="ta-row">
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="First name:" required>
+                </div>
+            
+                <div class="ta-row">
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="Last name:" required>
+                </div>
+            
+                <div class="ta-row">
+                <label for="studentId">Student ID:</label>
+                <input type="text" id="studentId" name="Student ID:" required>
+                </div>
+            
+                <div class="ta-row ta-gender-row">
+                <span class="ta-label">Gender:</span>
+                <label class="gender-option">
+                    M <input type="checkbox" name="Gender" value="M" class="gender-box" required>
+                </label>
+                <label class="gender-option">
+                    F <input type="checkbox" name="Gender" value="F" class="gender-box">
+                </label>
+                
+                
+                </div>
+            
+                <div class="ta-row">
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="GPA:" required>
+                </div>
+            
+                <div class="ta-row ta-comments-row">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="Comments:"></textarea>
+                </div>
+            
+                <h3 class="ta-thanks">
+                Thank you for completing the application!
+                </h3>
+            
+                <div class="ta-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <section class="footer-inner">
+          <section class="footer-contact">
+            7400 East Drive<br>
+            Montgomery, AL 36117<br>
+            Local: 334-244-3000<br>
+            Toll-Free: 800-227-2649
+          </section>
+      
+          <section class="footer-name">
+            <p>&copy; 2025 Shivaram Danwada</p>
+          </section>
+      
+          <section class="footer-social">
+            <a href="#"><img src="images/twt.jpeg" alt="Twitter"></a>
+            <a href="#"><img src="images/pinterest-logo.png" alt="Pinterest"></a>
+            <a href="#"><img src="images/facebook-social-network-logo.png" alt="Facebook"></a>
+          </section>
+        </section>
+      </footer>
+      
+  
+    </div>
+  
+  </body>
+  </html>
